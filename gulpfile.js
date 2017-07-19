@@ -157,6 +157,11 @@ gulp.task('js-libs', function() {
 
 
 gulp.task('copy', function() {
+  //copy img to dist directyl
+  gulp.src(bases.app + 'img/*')
+    .pipe(size({ gzip: true, showFiles: true }))
+    .pipe(gulp.dest(bases.dist + 'img/'))
+    .pipe(reload({stream:true}));
 
   // copy modernizr to dist directly
   gulp.src(bases.app + 'js/libs/modernizr.js')
