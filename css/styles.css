@@ -275,7 +275,7 @@ h6 {
 }
 
 body {
-  background-image: url("/img/bg-top.svg"), url("/img/bg-bottom.svg");
+  background-image: url("../img/bg-top.svg"), url("../img/bg-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   background-size: contain, contain;
   background-position: top, bottom;
