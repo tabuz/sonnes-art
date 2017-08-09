@@ -19,14 +19,12 @@ body {
 .main {
 	position: fixed;
 	width: 90%;
-	//height: 70%;
 	max-width: 700px;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 }
 .hex {
-	//background: no-repeat center center fixed;
 	background-size: contain;
 	background-repeat: no-repeat;
 	width: 38%;
@@ -60,6 +58,9 @@ body {
 	width: 300px;
 	transform: translate(-50%, -140%);
 	left: 50%;
+	&:hover {
+		opacity: 1;
+	}
 }
 .design {
 	right: 0;
